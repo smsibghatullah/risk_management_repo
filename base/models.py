@@ -9,6 +9,7 @@ class Item(models.Model):
 
 class AuditProgramRepo(models.Model):
     title =  models.TextField(null=True, blank=True)
+    department_name = models.TextField(null=True, blank=True)
     summary = models.TextField(null=True, blank=True)
     description = models.TextField(blank=True)
     category = models.CharField(max_length=100, blank=True)

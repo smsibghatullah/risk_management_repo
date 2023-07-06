@@ -18,5 +18,5 @@ class DetailsAdmin(admin.ModelAdmin):
 
 # Register your models here.
 admin.site.register(RiskRepo, DetailsAdmin)
-admin.site.register(AuditProgramRepo)
+admin.site.register(AuditProgramRepo,DetailsAdmin)
 admin.site.register(Department)
